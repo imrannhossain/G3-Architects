@@ -1,8 +1,137 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.work-sans-font{
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared style */
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pri-color {
+    color: rgb(66, 66, 66);
+}
+
+.btn-pri {
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+}
+
+
+
+/* nav related style */
+.bg-color {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 20px;
+
+}
+
+.navbar {
+    align-items: center;
+
+}
+
+.brand-name {
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar,
+.bannner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* style banner part */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 850px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+.banner-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px;
+}
+
+
+.banner-png {
+    max-width: 950px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:576px) {
+    
+.display-flex{
+    flex-direction: column;
+   align-items: flex-start;
+   margin: 0 20px;
+}
+
+    
 }
