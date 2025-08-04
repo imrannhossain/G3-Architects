@@ -102,9 +102,12 @@
     margin: 10px;
 }
 
+.png{
+    max-width: 950px;
+}
 
 .banner-png {
-    max-width: 950px;
+   width: 100%;
     border-radius: 5px;
 }
 
