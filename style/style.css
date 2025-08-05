@@ -291,6 +291,8 @@
     max-width: 240px;
 }
 
+/* style sponsor section */
+
 .sponsor {
     margin-top: 80px;
     justify-content: center;
@@ -326,6 +328,7 @@
     filter: grayscale(100%);
 }
 
+/* style footer section */
 
 .footer-section {
     margin-top: 80px;
@@ -462,6 +465,20 @@
         font-size: 0.8rem;
     }
 
+
+
+}
+
+
+@media screen and  (min-width:992px) {
+    .sponsor-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+
+    }
+
+   
 
 
 }
