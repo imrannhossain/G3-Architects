@@ -470,10 +470,10 @@
 }
 
 
-@media screen and  (min-width:992px) {
+@media screen and  (min-width:993px) and (max-width:1200px) {
     .sponsor-img {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         gap: 50px;
 
     }
