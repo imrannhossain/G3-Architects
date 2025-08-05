@@ -171,7 +171,7 @@
     display: flex;
     justify-content: center;
     gap: 120px;
-    
+
 }
 
 
@@ -245,6 +245,104 @@
 
 
 
+/* section fact added */
+.fact-section {
+    margin-top: 80px;
+    padding: 0 50px;
+
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+
+}
+
+.section-des {
+
+    color: rgb(114, 114, 114);
+
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 800px;
+
+
+
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+.fact {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    max-width: 240px;
+}
+
+.sponsor {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sponsor h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sponsor p {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/* Container of logos */
+.sponsor-img {
+    display: flex;
+    gap: 150px;
+
+}
+
+.img-sponsor {
+    max-width: 100px;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+
+.footer-section {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.footer {
+    padding: 20px;
+    color: rgb(66, 66, 66);
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+
+
 
 
 
@@ -277,7 +375,7 @@
         margin: 0 15px;
     }
 
-    .sopnsor-img{
+    .sopnsor-img {
         width: 100%;
         height: auto;
     }
@@ -293,6 +391,20 @@
         text-align: center;
     }
 
+    .fact-container {
+        grid-template-columns: 1fr;
+        margin-right: 90px;
+        width: 100%;
+    }
+
+    .sponsor-img {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sponsor p {
+        font-size: 0.8rem;
+    }
 
 
 
@@ -317,11 +429,12 @@
 
 
     }
-    .sopnsor-img{
+
+    .sopnsor-img {
         width: 100%;
         height: auto;
     }
-    
+
     .features-enjoy {
         flex-direction: column;
         align-items: center;
@@ -332,6 +445,23 @@
         margin: 10px auto;
         text-align: center;
     }
+
+    .fact-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 50px;
+    }
+
+    .sponsor-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+
+    }
+
+    .sponsor p {
+        font-size: 0.8rem;
+    }
+
 
 
 }
